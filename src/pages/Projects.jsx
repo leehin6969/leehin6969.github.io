@@ -171,20 +171,6 @@ const Projects = memo(function Projects() {
       date: "Aug. 2024",
       type: "Dev / Design: Carol Mak",
       link: "https://jc-ccultureatt.zuni.org.hk/en/calligraphy/opening-3/"
-    },
-    {
-      id: 2,
-      title: "Project Two",
-      date: "Nov. 2024",
-      type: "Frontend Dev",
-      link: "https://example.com/project-two"
-    },
-    {
-      id: 3,
-      title: "Project Three",
-      date: "Oct. 2024",
-      type: "Full Stack",
-      link: "https://example.com/project-three"
     }
   ], []);
 
