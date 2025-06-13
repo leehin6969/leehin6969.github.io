@@ -167,17 +167,17 @@ const Projects = memo(function Projects() {
   const projectData = useMemo(() => [
     {
       id: 1,
-      title: "HKJC Calligraphy Metaverse Website",
-      date: "Aug. 2024",
-      type: "Dev / Design: Carol Mak",
-      link: "https://jc-ccultureatt.zuni.org.hk/en/calligraphy/opening-3/"
-    },
-    {
-      id: 2,
       title: "MELL",
       date: "Dec. 2024",
       type: "Dev & Design",
       link: "https://mell.vercel.app/"
+    },
+    {
+      id: 2,
+      title: "HKJC Calligraphy Metaverse Website",
+      date: "Aug. 2024",
+      type: "Dev / Design: Carol Mak",
+      link: "https://jc-ccultureatt.zuni.org.hk/en/calligraphy/opening-3/"
     },
     {
       id: 3,
