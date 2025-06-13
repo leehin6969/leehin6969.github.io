@@ -1,4 +1,4 @@
-import{r,j as i,n as a,m as d}from"./index-N287I_0p.js";const m=a.section`
+import{r,j as t,n as a,m as d}from"./index-CNZMY98G.js";const m=a.section`
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -139,4 +139,4 @@ import{r,j as i,n as a,m as d}from"./index-N287I_0p.js";const m=a.section`
   @media (max-width: 480px) {
     font-size: 0.75rem;
   }
-`,g={tap:{scale:.98}},w=r.memo(function(){const o=r.useMemo(()=>[{id:1,title:"HKJC Calligraphy Metaverse Website",date:"Aug. 2024",type:"Dev / Design: Carol Mak",link:"https://jc-ccultureatt.zuni.org.hk/en/calligraphy/opening-3/"},{id:2,title:"Project Two",date:"Nov. 2024",type:"Frontend Dev",link:"https://example.com/project-two"},{id:3,title:"Project Three",date:"Oct. 2024",type:"Full Stack",link:"https://example.com/project-three"}],[]),n=t=>{t&&window.open(t,"_blank","noopener,noreferrer")};return i.jsx(m,{children:i.jsx(s,{children:i.jsx(l,{children:o.map(t=>i.jsxs(c,{variants:g,whileTap:"tap",onClick:()=>n(t.link),children:[i.jsx(h,{children:t.title}),i.jsxs(p,{children:[i.jsx("span",{children:t.date}),i.jsx("span",{children:t.type})]}),i.jsx(x,{children:t.description})]},t.id))})})})});export{w as default};
+`,g={tap:{scale:.98}},w=r.memo(function(){const n=r.useMemo(()=>[{id:1,title:"HKJC Calligraphy Metaverse Website",date:"Aug. 2024",type:"Dev / Design: Carol Mak",link:"https://jc-ccultureatt.zuni.org.hk/en/calligraphy/opening-3/"}],[]),o=i=>{i&&window.open(i,"_blank","noopener,noreferrer")};return t.jsx(m,{children:t.jsx(s,{children:t.jsx(l,{children:n.map(i=>t.jsxs(c,{variants:g,whileTap:"tap",onClick:()=>o(i.link),children:[t.jsx(h,{children:i.title}),t.jsxs(p,{children:[t.jsx("span",{children:i.date}),t.jsx("span",{children:i.type})]}),t.jsx(x,{children:i.description})]},i.id))})})})});export{w as default};
