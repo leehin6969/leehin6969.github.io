@@ -174,11 +174,18 @@ const Projects = memo(function Projects() {
     },
     {
       id: 2,
+      title: "MELL",
+      date: "Dec. 2024",
+      type: "Dev & Design",
+      link: "https://mell.vercel.app/"
+    },
+    {
+      id: 3,
       title: "MEBOARD",
       date: "Oct. 2023",
       type: "Dev & Design",
       link: "https://social-app-drab.vercel.app/"
-    }
+    },
   ], []);
 
   const handleProjectClick = (link) => {
