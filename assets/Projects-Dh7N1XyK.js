@@ -1,4 +1,4 @@
-import{r,j as t,n as a,m as d}from"./index-D1xgNbe8.js";const m=a.section`
+import{r,j as i,n as a,m as d}from"./index-EjRPTPcX.js";const s=a.section`
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -14,7 +14,7 @@ import{r,j as t,n as a,m as d}from"./index-D1xgNbe8.js";const m=a.section`
   @media (max-width: 480px) {
     padding: 1rem 0.75rem;
   }
-`,s=a.div`
+`,m=a.div`
   max-width: 47rem;
   width: 100%;
 
@@ -91,7 +91,7 @@ import{r,j as t,n as a,m as d}from"./index-D1xgNbe8.js";const m=a.section`
   @media (max-width: 480px) {
     padding: 0.75rem 0.5rem;
   }
-`,h=a.h3`
+`,p=a.h3`
   font-size: 2rem;
   font-weight: 500;
   margin: 0;
@@ -109,7 +109,7 @@ import{r,j as t,n as a,m as d}from"./index-D1xgNbe8.js";const m=a.section`
   @media (max-width: 480px) {
     font-size: 1.25rem;
   }
-`,p=a.div`
+`,h=a.div`
   display: flex;
   gap: 1rem;
   font-size: 0.8rem;
@@ -139,4 +139,4 @@ import{r,j as t,n as a,m as d}from"./index-D1xgNbe8.js";const m=a.section`
   @media (max-width: 480px) {
     font-size: 0.75rem;
   }
-`,g={tap:{scale:.98}},w=r.memo(function(){const n=r.useMemo(()=>[{id:1,title:"HKJC Calligraphy Metaverse Website",date:"Aug. 2024",type:"Dev / Design: Carol Mak",link:"https://jc-ccultureatt.zuni.org.hk/en/calligraphy/opening-3/"}],[]),o=i=>{i&&window.open(i,"_blank","noopener,noreferrer")};return t.jsx(m,{children:t.jsx(s,{children:t.jsx(l,{children:n.map(i=>t.jsxs(c,{variants:g,whileTap:"tap",onClick:()=>o(i.link),children:[t.jsx(h,{children:i.title}),t.jsxs(p,{children:[t.jsx("span",{children:i.date}),t.jsx("span",{children:i.type})]}),t.jsx(x,{children:i.description})]},i.id))})})})});export{w as default};
+`,g={tap:{scale:.98}},w=r.memo(function(){const n=r.useMemo(()=>[{id:1,title:"HKJC Calligraphy Metaverse Website",date:"Aug. 2024",type:"Dev / Design: Carol Mak",link:"https://jc-ccultureatt.zuni.org.hk/en/calligraphy/opening-3/"},{id:2,title:"MEBOARD",date:"Oct. 2023",type:"Dev & Design",link:"https://social-app-drab.vercel.app/"}],[]),o=t=>{t&&window.open(t,"_blank","noopener,noreferrer")};return i.jsx(s,{children:i.jsx(m,{children:i.jsx(l,{children:n.map(t=>i.jsxs(c,{variants:g,whileTap:"tap",onClick:()=>o(t.link),children:[i.jsx(p,{children:t.title}),i.jsxs(h,{children:[i.jsx("span",{children:t.date}),i.jsx("span",{children:t.type})]}),i.jsx(x,{children:t.description})]},t.id))})})})});export{w as default};
