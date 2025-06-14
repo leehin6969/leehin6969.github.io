@@ -1,4 +1,4 @@
-import{r,j as i,n as a,m as o}from"./index-Btu-o5PY.js";const s=a.section`
+import{r,j as i,n as a,m as d}from"./index-B45PQ8Fh.js";const s=a.section`
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -55,7 +55,7 @@ import{r,j as i,n as a,m as o}from"./index-Btu-o5PY.js";const s=a.section`
     gap: 0.5rem;
     padding-right: 0;
   }
-`,p=a(o.div)`
+`,p=a(d.div)`
   padding: 1rem 1.5rem;
   border-bottom: 1px solid ${e=>e.theme==="dark"?"#333":"#e1e5e9"};
   border-radius: 0;
@@ -139,4 +139,4 @@ import{r,j as i,n as a,m as o}from"./index-Btu-o5PY.js";const s=a.section`
   @media (max-width: 480px) {
     font-size: 0.75rem;
   }
-`,g={tap:{scale:.98}},w=r.memo(function(){const n=r.useMemo(()=>[{id:1,title:"MELL",date:"Dec. 2024",type:"Dev & Design",link:"https://mell.vercel.app/"},{id:2,title:"HKJC Calligraphy Metaverse Website",date:"Aug. 2024",type:"Dev / Design: Carol Mak",link:"https://jc-ccultureatt.zuni.org.hk/en/calligraphy/opening-3/"},{id:3,title:"MEBOARD",date:"Oct. 2023",type:"Dev & Design",link:"https://social-app-drab.vercel.app/"}],[]),d=t=>{t&&window.open(t,"_blank","noopener,noreferrer")};return i.jsx(s,{children:i.jsx(m,{children:i.jsx(l,{children:n.map(t=>i.jsxs(p,{variants:g,whileTap:"tap",onClick:()=>d(t.link),children:[i.jsx(c,{children:t.title}),i.jsxs(h,{children:[i.jsx("span",{children:t.date}),i.jsx("span",{children:t.type})]}),i.jsx(x,{children:t.description})]},t.id))})})})});export{w as default};
+`,g={tap:{scale:.98}},w=r.memo(function(){const n=r.useMemo(()=>[{id:1,title:"MELL",date:"Dec. 2024",type:"Dev & Design",link:"https://mell.vercel.app/"},{id:2,title:"Transit-Go",date:"Nov. 2024",type:"Dev & Design",link:"https://transit-go-one.vercel.app/"},{id:3,title:"HKJC Calligraphy Metaverse Website",date:"Aug. 2024",type:"Dev / Design: Carol Mak",link:"https://jc-ccultureatt.zuni.org.hk/en/calligraphy/opening-3/"},{id:4,title:"MEBOARD",date:"Oct. 2023",type:"Dev & Design",link:"https://social-app-drab.vercel.app/"}],[]),o=t=>{t&&window.open(t,"_blank","noopener,noreferrer")};return i.jsx(s,{children:i.jsx(m,{children:i.jsx(l,{children:n.map(t=>i.jsxs(p,{variants:g,whileTap:"tap",onClick:()=>o(t.link),children:[i.jsx(c,{children:t.title}),i.jsxs(h,{children:[i.jsx("span",{children:t.date}),i.jsx("span",{children:t.type})]}),i.jsx(x,{children:t.description})]},t.id))})})})});export{w as default};
