@@ -174,13 +174,20 @@ const Projects = memo(function Projects() {
     },
     {
       id: 2,
+      title: "Transit-Go",
+      date: "Nov. 2024",
+      type: "Dev & Design",
+      link: "https://transit-go-one.vercel.app/"
+    },
+    {
+      id: 3,
       title: "HKJC Calligraphy Metaverse Website",
       date: "Aug. 2024",
       type: "Dev / Design: Carol Mak",
       link: "https://jc-ccultureatt.zuni.org.hk/en/calligraphy/opening-3/"
     },
     {
-      id: 3,
+      id: 4,
       title: "MEBOARD",
       date: "Oct. 2023",
       type: "Dev & Design",
