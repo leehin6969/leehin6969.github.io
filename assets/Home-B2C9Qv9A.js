@@ -1,4 +1,4 @@
-import{r as i,j as e,n as t}from"./index-vnDQ8YUU.js";const r=t.section`
+import{r as i,j as e,n as t}from"./index-Btu-o5PY.js";const r=t.section`
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
@@ -45,4 +45,4 @@ import{r as i,j as e,n as t}from"./index-vnDQ8YUU.js";const r=t.section`
     line-height: 1.4;
     max-width: 250px;
   }
-`,x=i.memo(function(){return e.jsx(r,{children:e.jsx(s,{children:e.jsxs(a,{children:["Born in 2003",e.jsx("br",{}),"in Hong Kong,",e.jsx("br",{}),"I'm a front-end web",e.jsx("br",{}),"developer & support",e.jsx("br",{}),"specialist. My favourite ",e.jsx("br",{}),"album is",e.jsx("br",{}),"Because the internet",e.jsx("br",{}),"and that's the reason ",e.jsx("br",{}),"why you are here.",e.jsx("br",{})]})})})});export{x as default};
+`,x=i.memo(function(){return e.jsx(r,{children:e.jsx(s,{children:e.jsxs(a,{children:["Born in 2003",e.jsx("br",{}),"in Hong Kong,",e.jsx("br",{}),"I'm a front-end web",e.jsx("br",{}),"developer & support",e.jsx("br",{}),"specialist. ",e.jsx("br",{})," My favourite album is",e.jsx("br",{}),"Because the internet",e.jsx("br",{}),"and that's the reason ",e.jsx("br",{}),"why you are here.",e.jsx("br",{})]})})})});export{x as default};
