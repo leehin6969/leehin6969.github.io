@@ -63,7 +63,7 @@ const Home = memo(function Home() {
           in Hong Kong,<br />
           I'm a front-end web<br />
           developer & support<br />
-          specialist. My favourite <br />album is<br />
+          specialist. <br /> My favourite album is<br />
           Because the internet<br />
           and that's the reason <br />why you are here.<br />
         </Bio>
