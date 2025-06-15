@@ -140,18 +140,26 @@ const Sidebar = styled.nav`
   @media (max-width: 768px) {
     width: 100%;
     padding: 1rem 1rem;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
     min-height: auto;
     border-right: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     flex-shrink: 0; /* Prevent shrinking on mobile */
+    gap: 1rem;
   }
 
   @media (max-width: 480px) {
     padding: 0.75rem 0.75rem;
-    flex-wrap: wrap;
     gap: 0.75rem;
+  }
+`;
+
+const MobileTopRow = styled.div`
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
   }
 `;
 
@@ -217,12 +225,14 @@ const NavList = styled.ul`
     gap: 1.25rem;
     flex-grow: 0;
     align-items: center;
+    justify-content: flex-start;
+    width: 100%;
   }
 
   @media (max-width: 480px) {
     gap: 1rem;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: flex-start;
   }
 `;
 
@@ -497,10 +507,12 @@ function App() {
       <Frame {...frameProps}>
         <AsciiScene />
         <Sidebar theme={theme}>
-          <Logo theme={theme}>
-            <Link to="/">Jesse Lee</Link>
-            <Subtitle theme={theme}>Developer & Support</Subtitle>
-          </Logo>
+          <MobileTopRow>
+            <Logo theme={theme}>
+              <Link to="/">Jesse Lee</Link>
+              <Subtitle theme={theme}>Developer & Support</Subtitle>
+            </Logo>
+          </MobileTopRow>
           <NavList>
             {navItems.map(({ path, label }) => (
               <li key={path}>
