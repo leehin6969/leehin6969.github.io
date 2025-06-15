@@ -14,14 +14,10 @@ const Container = styled.div`
   overflow: hidden;
 
   @media (max-width: 768px) {
-    left: 50%; /* Center horizontally */
-    top: 50%; /* Center vertically */
-    transform: translate(-50%, -50%); /* Perfect centering */
-    width: 100vw; /* Full viewport width */
-    height: 100vh; /* Full viewport height */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    left: 0; /* Reset left position on mobile */
+    top: 0;
+    width: 100%;
+    height: 100%;
   }
 `;
 
