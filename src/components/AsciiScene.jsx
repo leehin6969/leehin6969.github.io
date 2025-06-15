@@ -14,10 +14,14 @@ const Container = styled.div`
   overflow: hidden;
 
   @media (max-width: 768px) {
-    left: 0; /* Reset left position on mobile */
-    top: 0;
-    width: 100%;
-    height: 100%;
+    left: 50%; /* Center horizontally */
+    top: 50%; /* Center vertically */
+    transform: translate(-50%, -50%); /* Perfect centering */
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 `;
 
@@ -113,13 +117,13 @@ const AsciiScene = memo(function AsciiScene() {
 
             // Set ASCII color based on device type
             if (isMobile) {
-                // Dimmer color on mobile for better text readability
-                effect.domElement.style.color = '#333333'; // Dark gray instead of white
-                effect.domElement.style.opacity = '0.6'; // Additional opacity reduction
+                // Warm coral color matching your theme on mobile
+                effect.domElement.style.color = '#ff8a95'; // Bright coral-pink
+                effect.domElement.style.opacity = '0.4'; // Lower opacity for text readability
             } else {
-                // Keep bright white on desktop
-                effect.domElement.style.color = 'white';
-                effect.domElement.style.opacity = '1';
+                // Warm coral color matching your theme on desktop
+                effect.domElement.style.color = '#ff8a95'; // Bright coral-pink
+                effect.domElement.style.opacity = '0.7'; // Slightly transparent for text readability
             }
 
             effect.domElement.style.backgroundColor = '#181717';
@@ -305,13 +309,13 @@ const AsciiScene = memo(function AsciiScene() {
                         // Restart with new mobile settings if needed
                         if (newIsMobile) {
                             effect.domElement.style.fontSize = '6px';
-                            effect.domElement.style.color = '#333333'; // Dimmer on mobile
-                            effect.domElement.style.opacity = '0.6';
+                            effect.domElement.style.color = '#ff8a95'; // Warm coral on mobile
+                            effect.domElement.style.opacity = '0.4';
                             renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.5));
                         } else {
                             effect.domElement.style.fontSize = '';
-                            effect.domElement.style.color = 'white'; // Bright on desktop
-                            effect.domElement.style.opacity = '1';
+                            effect.domElement.style.color = '#ff8a95'; // Warm coral on desktop
+                            effect.domElement.style.opacity = '0.7';
                             renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
                         }
                     }
