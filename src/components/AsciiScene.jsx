@@ -117,9 +117,9 @@ const AsciiScene = memo(function AsciiScene() {
                 effect.domElement.style.color = '#ff8a95'; // Bright coral-pink
                 effect.domElement.style.opacity = '0.4'; // Lower opacity for text readability
             } else {
-                // Warm coral color matching your theme on desktop
-                effect.domElement.style.color = '#ff8a95'; // Bright coral-pink
-                effect.domElement.style.opacity = '0.7'; // Slightly transparent for text readability
+                // Classic white color on desktop
+                effect.domElement.style.color = 'white'; // Clean white
+                effect.domElement.style.opacity = '0.8'; // Slightly transparent for text readability
             }
 
             effect.domElement.style.backgroundColor = '#181717';
@@ -310,8 +310,8 @@ const AsciiScene = memo(function AsciiScene() {
                             renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.5));
                         } else {
                             effect.domElement.style.fontSize = '';
-                            effect.domElement.style.color = '#ff8a95'; // Warm coral on desktop
-                            effect.domElement.style.opacity = '0.7';
+                            effect.domElement.style.color = 'white'; // Clean white on desktop
+                            effect.domElement.style.opacity = '0.8';
                             renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
                         }
                     }
