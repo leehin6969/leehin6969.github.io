@@ -174,7 +174,7 @@ const Projects = memo(function Projects() {
     },
     {
       id: 2,
-      title: "Transit-Go",
+      title: "Transit-Go (HK Ver.)",
       date: "Nov. 2024",
       type: "Dev & Design",
       link: "https://transit-go-one.vercel.app/"
