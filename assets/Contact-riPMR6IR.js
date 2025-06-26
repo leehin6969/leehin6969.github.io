@@ -1,4 +1,4 @@
-import{r as m,j as e,n as t}from"./index-BnIn9Tkj.js";const r=t.section`
+import{r as m,j as e,n as t}from"./index-Bqf-o3MB.js";const r=t.section`
   display: flex;
   align-items: flex-start;
   justify-content: flex-end;
@@ -103,4 +103,4 @@ import{r as m,j as e,n as t}from"./index-BnIn9Tkj.js";const r=t.section`
   @media (max-width: 480px) {
     font-size: 0.8rem;
   }
-`,f=m.memo(function(){const a=m.useMemo(()=>[{id:1,title:"LinkedIn ↗",href:"https://www.linkedin.com/in/jesse-lee-619888284/",type:"link"},{id:2,title:"GitHub ↗",href:"https://github.com/leehin6969",type:"link"},{id:3,title:"Email ↗",href:"mailto:redmmo6969@gmail.com",type:"email"},{id:4,title:"Resume↗",href:"/src/lib/JESSELEE_Resume.pdf#zoom=50",type:"pdf"}],[]);return e.jsx(r,{children:e.jsxs(o,{children:[e.jsx(d,{children:"Get In Touch"}),e.jsx(s,{children:"Let's work together to create something amazing"}),e.jsx(l,{children:a.map(i=>e.jsx(x,{children:e.jsx(p,{href:i.href,target:i.type==="link"||i.type==="pdf"?"_blank":void 0,rel:i.type==="link"||i.type==="pdf"?"noopener noreferrer":void 0,children:e.jsx(h,{children:i.title})})},i.id))})]})})});export{f as default};
+`,f=m.memo(function(){const a=m.useMemo(()=>[{id:1,title:"LinkedIn ↗",href:"https://www.linkedin.com/in/jesse-lee-619888284/",type:"link"},{id:2,title:"GitHub ↗",href:"https://github.com/leehin6969",type:"link"},{id:3,title:"Email ↗",href:"mailto:redmmo6969@gmail.com",type:"email"},{id:4,title:"Resume↗",href:"/JESSELEE_Resume.pdf#zoom=50",type:"pdf"}],[]);return e.jsx(r,{children:e.jsxs(o,{children:[e.jsx(d,{children:"Get In Touch"}),e.jsx(s,{children:"Let's work together to create something amazing"}),e.jsx(l,{children:a.map(i=>e.jsx(x,{children:e.jsx(p,{href:i.href,target:i.type==="link"||i.type==="pdf"?"_blank":void 0,rel:i.type==="link"||i.type==="pdf"?"noopener noreferrer":void 0,children:e.jsx(h,{children:i.title})})},i.id))})]})})});export{f as default};
