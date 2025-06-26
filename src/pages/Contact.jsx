@@ -147,7 +147,7 @@ const Contact = memo(function Contact() {
     {
       id: 4,
       title: "Resume↗",
-      href: "/src/lib/JESSELEE_Resume.pdf#zoom=50",
+      href: "/JESSELEE_Resume.pdf#zoom=50",
       type: "pdf"
     }
   ], []);
